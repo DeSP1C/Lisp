@@ -21,7 +21,7 @@
   (check-remove-thirds-and-reverse "test 5" '(p q r) '(q p))
   (check-remove-thirds-and-reverse "test 6" '(a b c d e) '(e d b a))
   (check-remove-thirds-and-reverse "test 7" '(1 2 3 4 5 6 7 8 9) '(8 7 5 4 2 1))
-  (check-remove-thirds-and-reverse "test 8" '(1) '(1)))
+  (check-remove-thirds-and-reverse "test 8" '(1 nil) '(nil 1)))
 
 (defun my-member (item lst)
   (cond
@@ -50,3 +50,8 @@
   (check-list-set-difference-3 "test 5" '(p q r s) '(q r) '(s) '(p))
   (check-list-set-difference-3 "test 6" '(x y z) '() '() '(x y z))
   (check-list-set-difference-3 "test 7" '(1 2 3 4 5 6) '(1 3 5) '(2 4 6) '()))
+  
+  (format t "~%----REMOVE & REVERSE----~%~%")
+  (test-remove-thirds-and-reverse)
+  (format t "~%----DIFFERENCE----~%~%")
+  (test-list-set-difference-3)

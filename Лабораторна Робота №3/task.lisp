@@ -58,3 +58,8 @@
   (check-bubble-sort-imper "test 4" '(0) '(0))
   (check-bubble-sort-imper "test 5" '(-3 0 5 -1 2) '(-3 -1 0 2 5))
   (check-bubble-sort-imper "test 6" '(3 1 4 1 5 9 2 6 5 3 5) '(1 1 2 3 3 4 5 5 5 6 9)))
+
+(format t "~% ----FUNC----~%~%")
+(test-bubble-sort-func)
+(format t "~% ----IMPER----~%~%")
+  (test-bubble-sort-imper)
