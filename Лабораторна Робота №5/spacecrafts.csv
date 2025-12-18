@@ -1,0 +1,9 @@
+ID,Name,Purpose,Company ID,Launch Year,Mass,Description
+101,Starlink-1,Communication,1,2019,260,"Satellite internet constellation"
+102,Huygens,Exploration,2,2005,318.1,"Lander to Titan"
+103,Dragon,Cargo,1,2010,7400,"Reusable cargo spacecraft"
+104,Hubble,Exploration,3,1990,11110.0,"Space Telescope"
+105,Crew Dragon,Crew,1,2020,13000,"Crew transport vehicle"
+106,Starship,Crew/Cargo,1,2024,150000,"Fully reusable super heavy-lift launch system"
+107,Hayabusa2,Exploration,4,2014,600.0,"Asteroid sample return mission"
+108,Chandrayaan-3,Exploration,5,2023,3900.0,"Moon lander and rover mission"
